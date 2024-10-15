@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> <!-- ใช้ Google Fonts -->
     <link rel="stylesheet" href="styles.css"> <!-- เชื่อม CSS -->
-    <title>เกมปริศนา</title>
+    <title>เกมปริศนาหาคุณพ่อ</title>
 </head>
 <body>
-    <h1>เกมปริศนา</h1>
+    <h1>เกมปริศนาหาคุณพ่อ</h1>
     <div class="game-container">
-        <button class="button">เริ่มเกม</button>
+        <button class="button" id="start-button">เริ่มเกม</button>
     </div>
+    <div id="game-area" class="image-grid" style="display: none;"></div> <!-- div สำหรับเกม -->
+    <div id="resultMessage" style="display: none;"></div> <!-- แสดงผลลัพธ์ -->
+    <script src="script.js"></script> <!-- เชื่อม JS -->
 </body>
 </html>
