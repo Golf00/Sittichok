@@ -1,11 +1,11 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f0f0f0;
+    background-color: #f9f3e7; /* เปลี่ยนสีพื้นหลังเป็นพาสเทล */
 }
 
 h1 {
-    color: #333;
+    color: #4a4a4a; /* สีข้อความที่เข้มขึ้น */
 }
 
 .image-grid {
@@ -22,14 +22,15 @@ h1 {
     border: 2px solid transparent;
     border-radius: 8px;
     transition: border-color 0.3s;
+    background-color: #ffffff; /* สีพื้นหลังของรูปภาพ */
 }
 
 .image-grid img:hover {
-    border-color: #007bff;
+    border-color: #ff6f61; /* สีกรอบรูปเมื่อ hover */
 }
 
 #resultMessage {
     font-size: 1.2em;
-    color: #007bff;
+    color: #6c63ff; /* สีข้อความผลลัพธ์เป็นพาสเทล */
     margin-top: 20px;
 }
